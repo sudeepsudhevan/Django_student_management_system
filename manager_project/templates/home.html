@@ -34,12 +34,12 @@
                                 <td>{{ student.gpa }}</td>
                                 <td>
                                     <button class="btn btn-success me-1" type="button" data-bs-toggle="modal"
-                                        data-bs-target="#viewModal{{ student.id }}">
+                                        data-bs-target="#myModal{{ student.id }}">
                                         <i class="fa-solid fa-circle-info fa-lg"></i>
                                     </button>
 
                                     <!-- Modal View-->
-                                    <div class="modal" id="viewModal{{ student.id }}" tabindex="-1"
+                                    <div class="modal" id="myModal{{ student.id }}" tabindex="-1"
                                         aria-labelledby="myModalLabel1" aria-hidden="true">
                                         <div class="modal-dialog" role="document">
                                             <div class="modal-content">
